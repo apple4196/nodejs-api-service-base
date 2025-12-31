@@ -1,6 +1,6 @@
 {
   "name": "nodejs-api-service-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A basic Node.js API service with Docker Compose",
   "main": "app.js",
   "scripts": {
