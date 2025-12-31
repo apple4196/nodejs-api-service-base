@@ -71,7 +71,7 @@ The API will be available at `http://localhost:3000`
 
 ```bash
 # Build and start services
-docker-compose up --build
+docker-compose up --build -d
 
 # Start services in background
 docker-compose up -d
