@@ -1,6 +1,6 @@
 {
   "name": "nodejs-api-service-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A basic Node.js API service with Docker Compose",
   "main": "app.js",
   "scripts": {
@@ -8,7 +8,10 @@
     "dev": "nodemon app.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "log4js": "^6.9.1",
+    "morgan": "^1.10.1",
+    "nanoid": "3.3.11"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
